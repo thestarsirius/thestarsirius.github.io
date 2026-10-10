@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shahad Ghazwani | شهد غزواني</title>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f2ff;--bg2:#fff;--ink:#17133a;--mute:#5d5886;--line:#d9d4f5;--sig:#00806b;--sig2:#7a3cff;--thr:#d6246b;--glow:rgba(122,60,255,.12);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0a24;--bg2:#161236;--ink:#ece9ff;--mute:#a49fcf;--line:#2c2658;--sig:#2ee6c5;--sig2:#9d7bff;--thr:#ff4d8d;--glow:rgba(157,123,255,.18)}}
+:root[data-theme="dark"]{--bg:#0d0a24;--bg2:#161236;--ink:#ece9ff;--mute:#a49fcf;--line:#2c2658;--sig:#2ee6c5;--sig2:#9d7bff;--thr:#ff4d8d;--glow:rgba(157,123,255,.18)}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Readex Pro',system-ui,Tahoma,sans-serif;line-height:1.75;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 80% 0,var(--glow),transparent),linear-gradient(var(--line) 1px,transparent 1px) 0 0/48px 48px,linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/48px 48px;opacity:.5;mask-image:linear-gradient(#000,transparent 85%)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--sig);outline-offset:3px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;display:flex;justify-content:space-between;align-items:center;padding:12px 5%;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.logo{font-weight:700;font-size:1.15rem;direction:ltr;text-decoration:none}.logo b{color:var(--sig)}
+.nl{display:flex;gap:22px;font-size:.9rem}.nl a{text-decoration:none;color:var(--mute)}.nl a:hover{color:var(--sig)}
+.tools{display:flex;gap:8px}
+button{font:inherit;cursor:pointer;color:var(--ink);background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:6px 14px}
+button:hover{border-color:var(--sig)}
+@media(max-width:760px){.nl{display:none}}
+section{padding:72px 5%;max-width:1080px;margin:auto}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);margin:0 0 28px;font-weight:700}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;min-height:82vh}
+@media(max-width:860px){.hero{grid-template-columns:1fr}}
+.hi{color:var(--sig);font-size:1rem;margin:0}
+h1{font-size:clamp(2.6rem,8vw,4.6rem);line-height:1.1;margin:.1em 0;font-weight:700;background:linear-gradient(100deg,var(--ink),var(--sig2) 70%,var(--sig));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:clamp(1.1rem,3vw,1.5rem);font-weight:600;margin:0}
+.type{direction:ltr;text-align:start;font-family:ui-monospace,Menlo,monospace;color:var(--sig);min-height:1.8em;margin:10px 0}
+[dir=rtl] .type{text-align:right}
+.type:after{content:"▌";animation:bl 1s steps(2) infinite}@keyframes bl{50%{opacity:0}}
+.lead{color:var(--mute);max-width:52ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.btn{padding:11px 22px;border-radius:12px;text-decoration:none;font-weight:600;border:1px solid var(--line);background:var(--bg2)}
+.btn.p{background:linear-gradient(100deg,var(--sig2),var(--sig));color:#06031a;border:0}
+.scan{background:var(--bg2);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 20px 60px var(--glow)}
+.scan h3{margin:0 0 4px;font-size:1.05rem}.scan p{margin:0 0 14px;color:var(--mute);font-size:.85rem}
+.row{display:flex;gap:8px}
+input{flex:1;min-width:0;font:inherit;direction:ltr;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.radar{position:relative;height:150px;margin:16px 0;border-radius:50%;aspect-ratio:1;width:150px;margin-inline:auto;border:1px solid var(--sig);background:repeating-radial-gradient(circle,transparent 0 24px,var(--line) 25px 26px)}
+.radar:after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,transparent 70%,var(--sig));opacity:.55;animation:sp 3s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.radar i{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--thr);top:30%;left:62%;opacity:0;transition:.4s}
+.bad .radar i{opacity:1;box-shadow:0 0 12px var(--thr)}
+.verdict{border-radius:12px;padding:12px 14px;font-size:.9rem;border:1px solid var(--line);min-height:70px}
+.ok{border-color:var(--sig)}.bad .verdict{border-color:var(--thr)}
+.meter{height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}.meter b{display:block;height:100%;width:0;background:var(--sig);transition:.5s}.bad .meter b{background:var(--thr)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:32px}@media(max-width:760px){.about{grid-template-columns:1fr}}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{border:1px solid var(--line);background:var(--bg2);border-radius:16px;padding:16px}.stat b{display:block;font-size:1.7rem;color:var(--sig)}.stat span{color:var(--mute);font-size:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:5px 13px;border-radius:99px;border:1px solid var(--line);background:var(--bg2);font-size:.85rem;direction:ltr}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{border:1px solid var(--line);background:var(--bg2);border-radius:18px;padding:20px}
+.card h3{margin:0 0 10px;font-size:1.05rem;color:var(--sig2)}
+.pj{display:grid;gap:18px}
+.proj{display:grid;grid-template-columns:90px 1fr;gap:18px;border:1px solid var(--line);background:var(--bg2);border-radius:20px;padding:22px;transition:border-color .2s}
+.proj:hover{border-color:var(--sig2)}
+.ico{width:90px;height:90px;border-radius:22px;display:grid;place-items:center;font-size:2.4rem;background:linear-gradient(140deg,var(--glow),transparent);border:1px solid var(--line)}
+.proj h3{margin:0;font-size:1.2rem}.proj p{margin:6px 0 10px;color:var(--mute)}
+.proj .yr{font-size:.8rem;color:var(--sig)}
+.proj a.l{display:inline-block;margin-top:10px;color:var(--sig);text-decoration:none;font-weight:600}
+@media(max-width:560px){.proj{grid-template-columns:1fr}}
+.tl{border-inline-start:2px solid var(--line);padding-inline-start:22px;display:grid;gap:26px}
+.tl>div{position:relative}.tl>div:before{content:"";position:absolute;inset-inline-start:-30px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--sig);box-shadow:0 0 0 4px var(--glow)}
+.tl h3{margin:0}.tl small{color:var(--sig)}.tl ul{margin:8px 0 0;padding-inline-start:20px;color:var(--mute)}
+.ct{text-align:center}.ct .cta{justify-content:center}
+footer{text-align:center;color:var(--mute);padding:30px 5% 50px;font-size:.85rem}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav>
+ <a class="logo" href="#top">&lt;shahad<b>.</b>sec /&gt;</a>
+ <div class="nl"><a href="#about" data-t="n1"></a><a href="#projects" data-t="n2"></a><a href="#exp" data-t="n3"></a><a href="#contact" data-t="n4"></a></div>
+ <div class="tools"><button id="lang" aria-label="Language">EN | عربي</button><button id="theme" aria-label="Theme">◐</button></div>
+</nav>
+
+<section class="hero" id="top">
+ <div>
+  <p class="hi" data-t="hi"></p>
+  <h1 data-t="name"></h1>
+  <p class="role" data-t="role"></p>
+  <div class="type" id="type"></div>
+  <p class="lead" data-t="lead"></p>
+  <div class="cta"><a class="btn p" href="#projects" data-t="c1"></a><a class="btn" href="#contact" data-t="c2"></a></div>
+ </div>
+ <div class="scan" id="scan">
+  <h3 data-t="sh"></h3><p data-t="sp"></p>
+  <div class="row"><input id="u" value="http://paypa1-secure-login.verify-account.xyz/login" aria-label="URL"><button id="go" data-t="go"></button></div>
+  <div class="radar"><i></i></div>
+  <div class="verdict" id="vd"></div>
+  <div class="meter"><b id="mt"></b></div>
+ </div>
+</section>
+
+<section id="about">
+ <h2 data-t="n1"></h2>
+ <div class="about">
+  <div><p data-t="ab1"></p><p class="lead" data-t="ab2"></p></div>
+  <div class="stats">
+   <div class="stat"><b>11.9M</b><span data-t="s1"></span></div>
+   <div class="stat"><b>5,000</b><span data-t="s2"></span></div>
+   <div class="stat"><b>20+</b><span data-t="s3"></span></div>
+   <div class="stat"><b>0.76</b><span data-t="s4"></span></div>
+  </div>
+ </div>
+</section>
+
+<section id="skills">
+ <h2 data-t="sk"></h2>
+ <div class="sg" id="sg"></div>
+</section>
+
+<section id="projects">
+ <h2 data-t="n2"></h2>
+ <div class="pj" id="pj"></div>
+</section>
+
+<section id="exp">
+ <h2 data-t="n3"></h2>
+ <div class="tl" id="tl"></div>
+</section>
+
+<section id="certs">
+ <h2 data-t="ce"></h2>
+ <div class="chips" id="ch"></div>
+</section>
+
+<section class="ct" id="contact">
+ <h2 data-t="n4"></h2>
+ <p class="lead" style="margin:0 auto 20px" data-t="ctp"></p>
+ <div class="cta">
+  <a class="btn p" href="mailto:shahadasad2030@outlook.com">Email</a>
+  <a class="btn" href="https://www.linkedin.com/in/shahadasaad" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="btn" href="https://github.com/thestarsirius" target="_blank" rel="noopener">GitHub</a>
+  <a class="btn" href="https://x.com/cybersiriusit" target="_blank" rel="noopener">X</a>
+ </div>
+</section>
+<footer data-t="ft"></footer>
+
+<script>
+/* ===== أضيفي مشاريعك الجديدة هنا: انسخي كتلة {} وعدّلي النصوص =====
+   Add new projects here: copy one block and edit it. */
+const PROJECTS=[
+{i:"🛡️",y:"2026",tags:["Python","AI","Safe Browsing","VirusTotal","Flutter"],link:"https://github.com/thestarsirius",
+ en:["Digital Trust & Fraud Analysis","A privacy-first assistant that checks links, QR codes and content before you interact with them. Zero-knowledge by design: memory-only processing and anonymized local logs."],
+ ar:["تطبيق الثقة الرقمية وتحليل الاحتيال","مساعد يحافظ على الخصوصية ويفحص الروابط ورموز QR والمحتوى قبل التعامل معها. تصميم بدون معرفة (Zero-Knowledge): معالجة في الذاكرة المؤقتة وسجلات محلية مجهولة الهوية."]},
+{i:"📉",y:"",tags:["Python","Pandas","Logistic Regression"],
+ en:["Customer Churn Prediction","Cleaned and engineered features on 5,000 customers, built a 0.76 AUC model, found a 37% churn rate (59% among first-year customers) and recommended retention actions."],
+ ar:["التنبؤ بانسحاب العملاء","تنظيف بيانات 5,000 عميل وهندسة الميزات وبناء نموذج بدقة AUC 0.76. النتيجة: نسبة انسحاب 37% (و59% بين عملاء السنة الأولى) مع توصيات للاحتفاظ بهم."]},
+{i:"📊",y:"",tags:["SQL","Power BI","DAX"],
+ en:["Sales Dashboard & RFM Segmentation","Interactive dashboard over 11.9M SAR in sales (42% growth, Q4 peak) plus a SQL RFM model that splits customers into Champions, Loyal, At Risk and Lost."],
+ ar:["لوحة المبيعات وتقسيم العملاء RFM","لوحة تفاعلية لمبيعات 11.9 مليون ريال (نمو 42% وذروة في الربع الرابع) مع نموذج RFM بلغة SQL يصنّف العملاء: أبطال، أوفياء، معرضون للفقد، مفقودون."]},
+{i:"🍽️",y:"2025",tags:["Python","Computer Vision","MySQL","REST"],
+ en:["Halal Food Recognition (Graduation Project)","An AI platform that scans food labels in real time. I designed the MySQL database and built the Python backend linking the front end, database and external APIs."],
+ ar:["موقع التعرف على الأغذية الحلال (مشروع التخرج)","منصة ذكاء اصطناعي تقرأ ملصقات الأغذية لحظيًا. صممت قاعدة بيانات MySQL وبنيت الواجهة الخلفية بـ Python التي تربط الموقع بالقاعدة والخدمات الخارجية."]}
+];
+const SKILLS={
+ en:[["Cybersecurity","Wireshark, Nmap, Kali Linux, SIEM concepts, vulnerability & patch management, phishing and fraud detection, privacy-by-design"],["AI & Machine Learning","Logistic regression, feature engineering, computer vision, AI-assisted threat detection"],["Data & BI","SQL (window functions, CTEs), Python (Pandas), Power BI, DAX, advanced Excel, KPI reporting"],["Build & Systems","Python, REST APIs, Flutter, Linux, Windows, database design"]],
+ ar:[["الأمن السيبراني","Wireshark وNmap وKali Linux ومفاهيم SIEM وإدارة الثغرات والتحديثات وكشف التصيد والاحتيال والخصوصية بالتصميم"],["الذكاء الاصطناعي","الانحدار اللوجستي وهندسة الميزات والرؤية الحاسوبية وكشف التهديدات بالذكاء الاصطناعي"],["البيانات وذكاء الأعمال","SQL وPython (Pandas) وPower BI وDAX وExcel المتقدم وتقارير مؤشرات الأداء"],["البناء والأنظمة","Python وواجهات REST وFlutter وLinux وWindows وتصميم قواعد البيانات"]]};
+const EXP={
+ en:[["Corporate Performance Specialist Trainee","HRDF – Tamheer · Dec 2025 – Jun 2026",["Tracked departmental KPIs in Excel and validated multi-source data.","Turned data into structured reports and visual summaries for executive management."]],["IT Trainee – Cybersecurity","Al-Aidabi Municipality · Jan – May 2025",["Applied patch management and monitored updates to cut vulnerabilities and risk.","Designed and published 20+ cybersecurity awareness visuals.","Wrote administrative and technical documentation."]],["B.Sc. Information Technology, Cybersecurity","Jazan University · 2020 – 2025",[]]],
+ ar:[["متدربة أخصائي أداء مؤسسي","هدف – برنامج تمهير · ديسمبر 2025 – يونيو 2026",["متابعة مؤشرات الأداء في Excel والتحقق من بيانات من مصادر متعددة.","تحويل البيانات إلى تقارير وملخصات مرئية للإدارة التنفيذية."]],["متدربة تقنية معلومات – أمن سيبراني","بلدية العيدابي · يناير – مايو 2025",["تطبيق إدارة التحديثات ومراقبتها لتقليل الثغرات والمخاطر.","تصميم ونشر أكثر من 20 مادة توعوية في الأمن السيبراني.","إعداد التوثيق الإداري والفني."]],["بكالوريوس تقنية المعلومات – مسار الأمن السيبراني","جامعة جازان · 2020 – 2025",[]]]};
+const CERTS={en:["Cisco Cybersecurity Fundamentals","AI Course, SDAIA","Training of Trainers (25 h)","UX/UI & Dart Bootcamp","English Proficiency, Deroob & Edraak"],ar:["أساسيات الأمن السيبراني – سيسكو","دورة الذكاء الاصطناعي – سدايا","تدريب المدربين TOT (25 ساعة)","معسكر UX/UI وبرمجة Dart","شهادات اللغة الإنجليزية – دروب وإدراك"]};
+const T={
+en:{n1:"About",n2:"Projects",n3:"Experience",n4:"Contact",hi:"Hi, I'm",name:"Shahad Ghazwani",role:"Cybersecurity & Data Analyst",lead:"I use AI and data to catch fraud and phishing before people click. Cybersecurity graduate from Jazan University, building privacy-first tools.",c1:"See my work",c2:"Get in touch",sh:"Try a link check",sp:"A small demo of how my fraud detector thinks. It runs in your browser and sends nothing anywhere.",go:"Scan",ab1:"I'm an Information Technology graduate (Cybersecurity track) who works where security, data and AI meet. I like turning noisy signals into clear decisions.",ab2:"My experience covers patch management, network analysis, security awareness and dashboards. I also hold a Training of Trainers certification and have made awareness content for official channels.",s1:"SAR sales analyzed",s2:"customers modeled",s3:"awareness visuals published",s4:"churn model AUC",sk:"Skills",ce:"Certifications",ctp:"Open to cybersecurity and data roles. Send me a message.",ft:"© 2026 Shahad Ghazwani · Jazan, Saudi Arabia",rep:"Risk",safe:"Looks safe",warn:"Suspicious",danger:"High risk",noflag:"No red flags found. Still, always check the sender.",view:"View project"},
+ar:{n1:"نبذة",n2:"المشاريع",n3:"الخبرة",n4:"تواصل",hi:"أهلًا، أنا",name:"شهد غزواني",role:"محللة أمن سيبراني وبيانات",lead:"أستخدم الذكاء الاصطناعي والبيانات لكشف الاحتيال والتصيد قبل أن ينقر المستخدم. خريجة أمن سيبراني من جامعة جازان، وأبني أدوات تحافظ على الخصوصية.",c1:"شاهد أعمالي",c2:"تواصل معي",sh:"جرّب فحص رابط",sp:"نموذج مصغر لطريقة تفكير كاشف الاحتيال عندي. يعمل داخل متصفحك ولا يرسل شيئًا لأي جهة.",go:"افحص",ab1:"خريجة تقنية معلومات (مسار الأمن السيبراني)، أعمل في نقطة التقاء الأمن والبيانات والذكاء الاصطناعي، وأحب تحويل الإشارات المشوشة إلى قرارات واضحة.",ab2:"تشمل خبرتي إدارة التحديثات وتحليل الشبكات والتوعية الأمنية ولوحات البيانات. أحمل شهادة تدريب المدربين وصممت محتوى توعوي نُشر على منصات رسمية.",s1:"ريال مبيعات تم تحليلها",s2:"عميل في النموذج",s3:"مادة توعوية منشورة",s4:"دقة AUC لنموذج الانسحاب",sk:"المهارات",ce:"الشهادات",ctp:"متاحة لفرص الأمن السيبراني والبيانات. راسلني.",ft:"© 2026 شهد غزواني · جازان، السعودية",rep:"الخطورة",safe:"يبدو آمنًا",warn:"مشبوه",danger:"خطر مرتفع",noflag:"لا توجد مؤشرات خطر. ومع ذلك تحقق دائمًا من المرسل.",view:"عرض المشروع"}};
+const TYPED={en:["> phishing hunter","> data storyteller","> privacy-first builder"],ar:["> صائدة تصيّد","> راوية بيانات","> بانية أدوات تحترم الخصوصية"]};
+let L=localStorageGet("lang")||"ar",tI=0,cI=0,del=false,timer;
+function localStorageGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function localStorageSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+const $=s=>document.querySelector(s);
+function render(){
+ const t=T[L];document.documentElement.lang=L;document.documentElement.dir=L==="ar"?"rtl":"ltr";
+ document.querySelectorAll("[data-t]").forEach(e=>e.textContent=t[e.dataset.t]);
+ $("#sg").innerHTML=SKILLS[L].map(s=>`<div class="card"><h3>${s[0]}</h3><div>${s[1]}</div></div>`).join("");
+ $("#pj").innerHTML=PROJECTS.map(p=>`<article class="proj"><div class="ico">${p.i}</div><div>${p.y?`<span class="yr">${p.y}</span>`:""}<h3>${p[L][0]}</h3><p>${p[L][1]}</p><div class="chips">${p.tags.map(x=>`<span class="chip">${x}</span>`).join("")}</div>${p.link?`<a class="l" href="${p.link}" target="_blank" rel="noopener">${t.view}</a>`:""}</div></article>`).join("");
+ $("#tl").innerHTML=EXP[L].map(e=>`<div><h3>${e[0]}</h3><small>${e[1]}</small>${e[2].length?`<ul>${e[2].map(x=>`<li>${x}</li>`).join("")}</ul>`:""}</div>`).join("");
+ $("#ch").innerHTML=CERTS[L].map(c=>`<span class="chip" style="direction:inherit">${c}</span>`).join("");
+ $("#lang").textContent=L==="ar"?"EN":"عربي";
+ scan();
+}
+function tick(){
+ const w=TYPED[L][tI%3];
+ if(!del){cI++;if(cI>w.length){del=true;timer=setTimeout(tick,1400);return}}else{cI--;if(cI<0){del=false;cI=0;tI++}}
+ $("#type").textContent=w.slice(0,Math.max(cI,0));timer=setTimeout(tick,del?35:80);
+}
+function scan(){
+ const t=T[L],v=$("#u").value.trim().toLowerCase();let s=0,why=[];
+ const R=[[/^http:\/\//,25,"HTTP, no encryption","بدون تشفير HTTP"],[/\d{1,3}(\.\d{1,3}){3}/,30,"IP address instead of a domain","عنوان IP بدل اسم نطاق"],[/@/,25,"Contains @ to hide the real host","يحتوي @ لإخفاء الوجهة"],[/(login|verify|secure|account|update|gift|free|bank|wallet|otp)/,18,"Urgent or credential keywords","كلمات استعجال أو بيانات دخول"],[/-.*-/,12,"Many hyphens in the domain","شرطات كثيرة في النطاق"],[/(bit\.ly|tinyurl|t\.co|cutt\.ly)/,20,"URL shortener hides the target","رابط مختصر يخفي الوجهة"],[/\.(xyz|top|click|zip|work|gq|tk)(\/|$)/,20,"Risky top-level domain","امتداد نطاق عالي الخطورة"],[/(paypa1|g00gle|micr0soft|amaz0n|rajh1|alinma-)/,35,"Look-alike brand spelling","تقليد لاسم علامة معروفة"],[/xn--/,20,"Punycode (lookalike characters)","أحرف مموهة Punycode"]];
+ R.forEach(r=>{if(r[0].test(v)){s+=r[1];why.push(L==="ar"?r[3]:r[2])}});
+ s=Math.min(s,100);const bad=s>=40;
+ $("#scan").className="scan"+(bad?" bad":" ok");$("#mt").style.width=Math.max(s,6)+"%";
+ const lbl=s>=60?t.danger:s>=30?t.warn:t.safe;
+ $("#vd").innerHTML=`<b>${lbl} · ${t.rep} ${s}/100</b><br>${why.length?why.map(w=>"• "+w).join("<br>"):t.noflag}`;
+}
+$("#go").onclick=scan;$("#u").addEventListener("keydown",e=>{if(e.key==="Enter")scan()});
+$("#lang").onclick=()=>{L=L==="ar"?"en":"ar";localStorageSet("lang",L);cI=0;del=false;render()};
+$("#theme").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme:dark)").matches);r.dataset.theme=d?"light":"dark"};
+render();tick();
+</script>
+</body>
+</html>
